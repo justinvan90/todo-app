@@ -1,0 +1,15 @@
+body {
+    background-color: #154c79;
+    color: #eab676
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
