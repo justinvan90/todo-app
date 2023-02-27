@@ -16,9 +16,13 @@ addButton.addEventListener('click', addTask);
 
 function completeTask() {
     taskList.style.textDecoration = "line-through";
-    
 }
 
-taskList.addEventListener('click', completeTask);
+function deleteTask() {
+    taskList.style.textDecoration = "line-through";
+}
 
+
+taskList.addEventListener('click', completeTask)
+taskList.addEventListener('dblclick', deleteTask)
 
